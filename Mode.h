@@ -80,7 +80,7 @@ class Mode{
         
     }
 
-  if(mur == 1)//Si mur detecter on recule
+  if(mur == 1)//Si mur détécté on recule
   {
         
         if (detectgauche.Valeur() <= detectdroite.Valeur())
@@ -108,7 +108,7 @@ class Mode{
      
   }
 
-  if(mur == 2)//Si mur detecter on évite
+  if(mur == 2)//Si mur détécté on évite
   {
         
         if (detectgauche.Valeur() <= detectdroite.Valeur())
